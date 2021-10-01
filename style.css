@@ -1,0 +1,85 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.ti-email::before {
+    color: aqua;
+    padding: 10px;
+}
+
+.ti-mobile::before {
+    color: aqua;
+    padding: 10px;
+}
+
+.ti-location-pin::before {
+    color: aqua;
+    padding: 10px;
+}
+
+.ti-twitter-alt {
+    margin: 0 5px;
+}
+
+.ti-pinterest {
+    margin: 0 5px;
+}
+
+.ti-facebook {
+    margin: 0 5px;
+}
+
+.ti-instagram {
+    margin: 0 5px;
+}
+
+#header {
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    display: flex;
+    position: fixed;
+    line-height: 50px;
+    background: rgb(0, 0, 0);
+    justify-content: space-between;
+}
+
+#nav li {
+    color: #fff;
+    display: inline-block;
+    list-style-type: none;
+}
+
+#nav li:hover {
+    color: aqua;
+    cursor: pointer;
+}
+
+#login li {
+    color: #fff;
+    display: inline-block;
+    list-style-type: none;
+}
+
+#login .login-english {
+    width: 150px;
+    padding: 0 35px;
+    background: rgb(5, 252, 252);
+}
+
+#login .user {
+    width: 50px;
+    padding: 0 16px;
+    background-color: rgb(31, 196, 196);
+}
+
+#login .login-chile {
+    display: none;
+}
+
+#login .login-english:hover>.login-chile {
+    display: block;
+}
